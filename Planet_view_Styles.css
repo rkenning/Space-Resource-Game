@@ -1,0 +1,139 @@
+﻿body {
+    position: absolute;
+    left: 20;
+}
+.Planet_Detail
+{
+    border: 1px solid #000000;
+    position: absolute;
+    top: 43px;
+    left: 1px;
+    height: 208px;
+    width: 235px;
+}
+
+.Planet_Build_Que
+{
+    border: 1px solid #000000;
+    position: absolute;
+    top: 6px;
+    left: 253px;
+    height: 244px;
+    width: 406px;
+}
+
+.Planet_Build_Que_Scroll
+{
+    position: relative;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    height: 166px;
+    width: 384px;
+}
+
+
+.PlanetGrid
+{
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 4px;
+    left: 1px;
+    height: 30px;
+    width: 238px;
+    overflow: auto;
+    margin-top: 0px;
+}
+
+
+.PlanetGridHeader
+{
+    position: absolute;
+    top: 31px;
+    left: 1px;
+    height: 200px;
+    width: 256px;
+}
+
+.Planet_Buildings
+{
+    position: absolute;
+    top: 266px;
+    left: 3px;
+    height: 200px;
+    width: 820px;
+    overflow: auto;
+}
+.BuildingDetails
+{
+    border-style: groove;
+    border-width: thin;
+    position: absolute;
+    top: 483px;
+    left: 3px;
+    z-index: 100;
+    height: 171px;
+    width: 371px;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+
+.AddJobDetails
+{
+    border-style: groove;
+    border-width: thin;
+    position: absolute;
+    top: 284px;
+    left: 538px;
+    z-index: 100;
+    height: 134px;
+    width: 371px;
+    background-color: #FFFFFF;
+}
+    
+
+.Content
+{
+    left: 116px;
+    top: 16px;
+    position: absolute;
+}
+.Menu
+{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.DataGridFixedHeader 
+{
+    POSITION: relative;
+    BACKGROUND-COLOR: white;
+    visibility: hidden;
+    height: 0px;
+}
+td
+{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+
+.Datasource
+{
+    position: absolute;
+    top: 920px;
+    left: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}

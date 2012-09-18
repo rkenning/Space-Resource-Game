@@ -1,0 +1,33 @@
+﻿body {
+}
+tbody
+{
+    font-size: x-small;
+}
+
+td
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black 1px;
+}
+.MapMain
+{
+    position: absolute;
+    top: 19px;
+    left: 166px;
+    height: 542px;
+    width: 648px;
+    background-color: #D4D0C8;
+}
+
+.MapDetails
+{
+    position: absolute;
+    top: 18px;
+    left: 861px;
+    height: 535px;
+    width: 305px;
+    background-color: #C0C0C0;
+}
+

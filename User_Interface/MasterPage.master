@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="User_Interface_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class "Content">
+    <p>Menu System</p>
+    
+        <asp:Menu ID="Menu1" runat="server">
+            <Items>
+                <asp:MenuItem
+                    Text="Planet Detais" Value="Planet Detais" 
+                    NavigateUrl="~/User_Interface/view_Planets.aspx"></asp:MenuItem>
+                <asp:MenuItem 
+                    Text="Space Maps" Value="Space Maps" 
+                    NavigateUrl="~/User_Interface/Space_Maps.aspx"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        </div>
+    <div class = "Content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    
+    </div>
+    </form>
+</body>
+</html>
